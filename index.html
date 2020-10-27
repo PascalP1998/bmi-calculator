@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="utf-8">
+    <title>BMI Rechner bei Erwachsenen</title>
+    <link href = "style.css" type = "text/css" rel = "stylesheet">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="calc">
+      <header>
+        <h1>BMI-Rechner</h1>
+      </header>
+      <form id="calc" action="index.html">
+        <label for="size">Größe in cm</label>
+        <input type="number" id="size" min="120" max="300">
+        <label for="age">Alter</label>
+        <input type="number" id="age" min="19" max="70">
+        <label for="weight">Gewicht in kg</label>
+        <input type="number" id="weight" min="1" max="400">
+        <input type="button" onclick="bmiCalculator()" value="BMI berechnen">
+      </form>
+      <div class="result">
+        <p id="result"></p>
+      </div>
+      <p>&copy von Pascal Peters 2020</p>
+    </div>
+  </body>
+</html>

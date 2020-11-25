@@ -1,2 +1,2 @@
 # bmi-calculator
-Simply calculates your BMI
+Berechnet den BMI
